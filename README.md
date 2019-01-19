@@ -3,6 +3,8 @@ Python code for pre-processing conll09 data.
 
 
 ## convert conll05 gold parses to universal dependencies 
+
+Set path to Stanford parser:
 ```
 export STANFORD_PARSER=/path/to/stanford/parser
 ```

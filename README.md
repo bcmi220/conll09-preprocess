@@ -2,7 +2,7 @@
 Python code for pre-processing conll09 data.
 
 
-# convert conll05 gold parses to universal dependencies 
+## convert conll05 gold parses to universal dependencies 
 ```
 export STANFORD_PARSER=/path/to/stanford/parser
 ```
@@ -12,7 +12,7 @@ export STANFORD_PARSER=/path/to/stanford/parser
 java -cp "$STANFORD_PARSER/*" -mx1g edu.stanford.nlp.trees.ud.UniversalDependenciesConverter -treeFile ~/canvas/data/conll05st-release-new/train-set.gz.parse > conll09/conll2005-train-universal.txt 
 ```
 
-# align datasets
+## align datasets
 
 **Train**
 ```
